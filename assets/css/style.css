@@ -6,12 +6,26 @@
     --primary-color: #5eb1bf; /*Blue*/
     --dark-color: #042a2b; /*Dark Blue*/
     --highlight-color: #cdedf6; /*light blue*/
-    --seccond-color: #ff8552; /*orange*/
-    --seccond-color: #edb88b; /*dark yellow*/
+    --secondary-color: #ff8552; /*orange*/
+    --secondary-color: #edb88b; /*dark yellow*/
 }
+
+/*footer styles*/
 
 #footer {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem 0;
+}
+
+.socal-links a {
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.5s;
+}
+
+.socal-links a:hover {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    transition: color 0.3s;
 }
