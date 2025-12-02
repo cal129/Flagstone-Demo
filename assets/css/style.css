@@ -31,14 +31,17 @@ h6 {
 /* nav bar css */
 #navbar {
     background-color: var(--primary-color);
-    font-family: var(--logo-font);
     color: white;
+    font-family: var(--logo-font);
 }
 
 #navbar .logo {
     height: 80px;
 }
 
+#navbar .nav-link {
+    font-family: var(--primary-font);
+}
 /*header styles*/
 header .logo-text {
     font-family: var(--logo-font);
