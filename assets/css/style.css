@@ -31,7 +31,6 @@ h6 {
 /* nav bar css */
 #navbar {
     background-color: var(--primary-color);
-    color: white;
     font-family: var(--logo-font);
 }
 
