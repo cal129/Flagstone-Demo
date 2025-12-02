@@ -4,8 +4,8 @@
 /*CSS variables*/
 :root {
     --primary-font: "Nunito", sans-serif;
-    --heading-font: "Lora", cursive;
-    --logo-font: "Berkshire Swash", cursive;
+    --heading-font: "Lora", serif;
+    --logo-font: "Berkshire Swash", serif;
 
     --primary-color: #5eb1bf; /*Blue*/
     --dark-color: #042a2b; /*Dark Blue*/
@@ -13,6 +13,21 @@
     --secondary-color: #ff8552; /*orange*/
     --secondary-color: #edb88b; /*dark yellow*/
 }
+
+/* global styles */
+body {
+    font-family: var(--primary-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+}
+
 /* nav bar css */
 #navbar {
     background-color: var(--primary-color);
@@ -22,6 +37,11 @@
 
 #navbar .logo {
     height: 80px;
+}
+
+/*header styles*/
+header .logo-text {
+    font-family: var(--logo-font);
 }
 
 /*footer styles*/
