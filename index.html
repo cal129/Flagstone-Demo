@@ -70,7 +70,7 @@
         </div>
     </nav>
 
-
+    <!--Hero image header-->
     <header class="position-relative">
         <div class="bg-image text-white"
             style="background-image: url('assets/Images/mountain bg.png'); background-size: cover; background-position: center;"
@@ -89,6 +89,8 @@
         </div>
 
     </header>
+
+    <!-- Main content mental health tips-->
     <main>
         <section id="tips" class="container section">
             <div class="row">
@@ -100,9 +102,9 @@
                     <div class="card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <h5 class="card-title">Stay Physically Active</h5>
+                            <p class="card-text">Regular movement — even a short walk — boosts endorphins and reduces
+                                symptoms of depression and anxiety.</p>
                         </div>
                     </div>
                 </div>
@@ -111,9 +113,10 @@
                     <div class="card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <h5 class="card-title">Get Enough Sleep</h5>
+                            <p class="card-text">Aim for 7–9 hours of sleep per night. Good sleep supports mood
+                                stability, memory, and stress recovery.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -122,9 +125,10 @@
                     <div class="card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <h5 class="card-title">Practice Daily Mindfulness</h5>
+                            <p class="card-text">Take 5–10 minutes each day to focus on your breath or surroundings.
+                                Mindfulness helps reduce anxiety and improves emotional regulation.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -133,9 +137,9 @@
                     <div class="card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <h5 class="card-title">Practice Gratitude</h5>
+                            <p class="card-text">Write down 3 things you're grateful for each day. Gratitude helps shift
+                                focus from stress to positivity.</p>
                         </div>
                     </div>
                 </div>
@@ -144,9 +148,10 @@
                     <div class="card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <h5 class="card-title">Limit Screen Time</h5>
+                            <p class="card-text">Take breaks from phones and social media. Too much screen time can
+                                increase stress and reduce sleep quality.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -155,9 +160,10 @@
                     <div class="card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <h5 class="card-title">Eat Balanced Meals</h5>
+                            <p class="card-text">Nutrition affects mood. Include fruits, vegetables, whole grains, and
+                                protein to support brain health.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -237,6 +243,28 @@
 
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
+
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <script>
+        document
+            .querySelectorAll(".navbar-collapse .nav-link")
+            .forEach((link) => {
+                link.addEventListener("click", function (e) {
+                    let section = document.querySelector(e.target.getAttribute("href"));
+                    if (section) {
+                        e.preventDefault(); // Prevent default anchor click behavior
+                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                        window.scroll({
+                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                            behavior: "smooth",
+                        });
+                        document
+                            .querySelector(".navbar-collapse")
+                            .classList.remove("show"); // Collapse navbar
+                    }
+                });
+            });
+    </script>
 </body>
 
 </html>
