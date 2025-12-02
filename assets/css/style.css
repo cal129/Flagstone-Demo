@@ -1,0 +1,17 @@
+/*CSS variables*/
+:root {
+    --primary-font: "Inter", sans-serif;
+    --heading-font: "Macondo", cursive;
+
+    --primary-color: #5eb1bf; /*Blue*/
+    --dark-color: #042a2b; /*Dark Blue*/
+    --highlight-color: #cdedf6; /*light blue*/
+    --seccond-color: #ff8552; /*orange*/
+    --seccond-color: #edb88b; /*dark yellow*/
+}
+
+#footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem 0;
+}
