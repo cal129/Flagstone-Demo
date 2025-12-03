@@ -36,6 +36,7 @@ h6 {
 #tips h2 {
     margin-bottom: 2rem;
 }
+
 /* nav bar css */
 #navbar {
     background-color: var(--primary-color);
@@ -68,6 +69,15 @@ header {
     background-color: var(--secondary-color);
 }
 
+/* links section styles*/
+#link-section h2 {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+#link-section {
+    margin-bottom: 2rem;
+}
 /*footer styles*/
 #footer {
     background-color: var(--primary-color);
@@ -93,8 +103,8 @@ header {
     #tips .card-body {
         min-height: 160px;
     }
-    #quotes .card-body {
-        min-height: 330px;
+    #link-section .card-body {
+        min-height: 320px;
     }
 }
 /*large screens */
@@ -102,7 +112,7 @@ header {
     #tips .card-body {
         min-height: 150px;
     }
-    #quotes .card-body {
+    #link-section .card-body {
         min-height: 280px;
     }
 }
@@ -112,8 +122,8 @@ header {
     #tips .card-body {
         min-height: 160px;
     }
-    #quotes .card-body {
-        min-height: 230px;
+    #link-section .card-body {
+        min-height: 220px;
     }
 }
 
