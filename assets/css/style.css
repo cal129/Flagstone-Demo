@@ -37,6 +37,11 @@ h6 {
     margin-bottom: 2rem;
 }
 
+#quote-section h2 {
+    text-align: center;
+    color: white;
+    padding: 1.5rem 0;
+}
 /* buttons */
 .custom-button-outline {
     border: 3px solid var(--dark-color);
