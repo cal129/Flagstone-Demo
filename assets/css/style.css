@@ -53,10 +53,19 @@ h6 {
 header .logo-text {
     font-family: var(--logo-font);
 }
+
+header {
+    margin-bottom: 2rem;
+}
 /* main section styles*/
 
 #tips .card {
     margin-bottom: 1.6rem;
+}
+
+/* quote section styles*/
+#quote-section {
+    background-color: var(--secondary-color);
 }
 
 /*footer styles*/
@@ -79,7 +88,6 @@ header .logo-text {
 }
 
 /*media queries */
-
 /*medium screens */
 @media screen and (min-width: 768px) {
     #tips .card-body {
