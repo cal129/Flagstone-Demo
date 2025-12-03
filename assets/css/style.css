@@ -75,6 +75,10 @@ header {
 #tips .card {
     margin-bottom: 1.6rem;
 }
+/* link section styles*/
+#link-section .card {
+    margin-bottom: 1.6rem;
+}
 
 /* quote section styles*/
 #quote-section {
