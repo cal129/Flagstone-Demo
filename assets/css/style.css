@@ -37,6 +37,18 @@ h6 {
     margin-bottom: 2rem;
 }
 
+/* buttons */
+.custom-button-outline {
+    border: 3px solid var(--dark-color);
+    padding: 7px 25px;
+    color: var(--dark-color);
+}
+.custom-button-outline:hover {
+    background-color: var(--highlight-color);
+    border: 3px solid var(--dark-color);
+    color: var(--secondary-color);
+}
+
 /* nav bar css */
 #navbar {
     background-color: var(--primary-color);
