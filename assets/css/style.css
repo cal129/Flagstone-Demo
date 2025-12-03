@@ -45,6 +45,11 @@ h6 {
 header .logo-text {
     font-family: var(--logo-font);
 }
+/* main section styles*/
+
+#tips .card {
+    margin-bottom: 1.5rem;
+}
 
 /*footer styles*/
 #footer {
@@ -63,4 +68,34 @@ header .logo-text {
     color: var(--secondary-color);
     font-size: 1.5rem;
     transition: color 0.3s;
+}
+
+/*media queries */
+
+/*small screens */
+@media screen and (min-width: 768px) {
+    #tips .card-body {
+        min-height: 200px;
+    }
+}
+
+/*mediam screens */
+@media screen and (min-width: 992px) {
+    #services .card-body {
+        min-height: auto;
+    }
+}
+
+/*Large screens */
+@media screen and (min-width: 1200px) {
+    #services .card-body {
+        min-height: 220px;
+    }
+}
+
+/* XL screens */
+@media screen and (min-width: 1400px) {
+    #services .card-body {
+        min-height: 200px;
+    }
 }
