@@ -28,6 +28,14 @@ h6 {
     font-family: var(--heading-font);
 }
 
+#tips h1,
+#tips h2 {
+    text-transform: uppercase;
+}
+
+#tips h2 {
+    margin-bottom: 2rem;
+}
 /* nav bar css */
 #navbar {
     background-color: var(--primary-color);
@@ -72,30 +80,30 @@ header .logo-text {
 
 /*media queries */
 
-/*small screens */
+/*medium screens */
 @media screen and (min-width: 768px) {
     #tips .card-body {
-        min-height: 200px;
+        min-height: 160px;
     }
 }
 
-/*mediam screens */
+/*large screens */
 @media screen and (min-width: 992px) {
-    #services .card-body {
-        min-height: auto;
+    #tips .card-body {
+        min-height: 150px;
     }
 }
 
-/*Large screens */
+/* X Large screens */
 @media screen and (min-width: 1200px) {
-    #services .card-body {
-        min-height: 220px;
+    #tips .card-body {
+        min-height: 160px;
     }
 }
 
-/* XL screens */
+/* XXL screens */
 @media screen and (min-width: 1400px) {
-    #services .card-body {
+    #tips .card-body {
         min-height: 200px;
     }
 }
