@@ -58,8 +58,42 @@ Aresponsive design using bootstrap cards to control responsivness over diferent 
 
 ---
 
-**_Colors_**
+## Colors
 
 I chose the colors to have a calming effect and match the imagry of the website.
 
 <img src="assets/Images/readme/palette.jpeg" alt="drawing" width="400"/>
+
+## AI Tools
+
+-   Co pilot used in planning to make user stories.
+-   Co pilot asked for ideas of colour pallet. then adjusted by myslef.
+-   Co pilot to make the logo and card images.
+-   Used Co pilot to suggest how to add jumbotron to header.
+-   Used Co pilot to add in the quote carousel and change BG color.
+-   Asked Co pilot how to move the link in nav to right side.
+
+## Future improvements
+
+-   A section of personal stories.
+-   A form to sign up to a newsletter.
+-   More information in the footer including emergency numbers.
+-   Fix when navigation bar covers headings when links are clicked.
+
+# Testing and Validation
+
+## Testing Results
+
+I used Devtools resposinve feature to test how the website would look on different screen sizes. I used a mibile first aproach and adjusted for larger screens.
+
+# Validation
+
+Near the end of my build I used https://validator.w3.org/ to check for errors. index.html had a couple of small errors with a quick fix.
+
+![alt text](assets/Images/readme/html_validation.jpeg)
+
+Style.css returned no errors
+![alt text](assets/Images/readme/css_validation.jpeg)
+
+Lighthouse testing shows only loading speed performance issues
+<img src="assets/Images/readme/lighthouse1.jpeg" alt="drawing" width="400"/>
