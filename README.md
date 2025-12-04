@@ -101,6 +101,12 @@ It has also lowered Best practices score, now due to some images being too small
 
 Deployed through Githubs pages.
 
+## Reflections
+
+Co pilot was a useful tool especially with content creation. It helped in places to quickly remind me how to do a small task, like move the nav bar links to the left.
+
+It took a few attempts for it to help with bigger coding chalenges, but put me on the right path.
+
 ## Future improvements
 
 -   A section of personal stories.
