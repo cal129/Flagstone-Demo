@@ -73,13 +73,6 @@ I chose the colors to have a calming effect and match the imagry of the website.
 -   Used Co pilot to add in the quote carousel and change BG color.
 -   Asked Co pilot how to move the link in nav to right side.
 
-## Future improvements
-
--   A section of personal stories.
--   A form to sign up to a newsletter.
--   More information in the footer including emergency numbers.
--   Fix when navigation bar covers headings when links are clicked.
-
 # Testing and Validation
 
 ## Testing Results
@@ -96,4 +89,21 @@ Style.css returned no errors
 ![alt text](assets/Images/readme/css_validation.jpeg)
 
 Lighthouse testing shows only loading speed performance issues
+
 <img src="assets/Images/readme/lighthouse1.jpeg" alt="drawing" width="400"/>
+
+Seccond Lighthouse testing after converting some of the photos to smaller file sizes. A small improvment, to make more improvments I will need to change the file type, maybe .webp
+It has also lowered Best practices score, now due to some images being too small dimensions.
+
+<img src="assets/Images/readme/lighthouse2.jpeg" alt="drawing" width="400"/>
+
+# Deployment
+
+Deployed through Githubs pages.
+
+## Future improvements
+
+-   A section of personal stories.
+-   A form to sign up to a newsletter.
+-   More information in the footer including emergency numbers.
+-   Fix when navigation bar covers headings when links are clicked.
