@@ -45,3 +45,21 @@ _Could have_ **User Story 4**: As some looking to be inspired, I would like to r
 -   A section with revolving quotes to ispire.
 
 ---
+
+## Design Decisions
+
+Wireframes
+
+Aresponsive design using bootstrap cards to control responsivness over diferent size screens.
+
+![alt text](assets/Images/readme/WireDesktop.jpeg)
+![alt text](assets/Images/readme/WireTab.jpeg)
+![alt text](assets/Images/readme/WirePhone.jpeg)
+
+---
+
+**_Colors_**
+
+I chose the colors to have a calming effect and match the imagry of the website.
+
+<img src="assets/Images/readme/palette.jpeg" alt="drawing" width="400"/>
