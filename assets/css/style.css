@@ -17,6 +17,7 @@
 /* global styles */
 body {
     font-family: var(--primary-font);
+    scroll-margin-top: 40rem;
 }
 
 h1,
@@ -80,6 +81,7 @@ header {
 #tips .card {
     margin-bottom: 1.6rem;
 }
+
 /* link section styles*/
 #link-section .card {
     margin-bottom: 1.6rem;
@@ -88,6 +90,7 @@ header {
 /* quote section styles*/
 #quote-section {
     background-color: var(--secondary-color);
+    scroll-margin-top: 4rem;
 }
 
 /* links section styles*/
