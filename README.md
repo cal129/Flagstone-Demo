@@ -113,3 +113,4 @@ It took a few attempts for it to help with bigger coding chalenges, but put me o
 -   A form to sign up to a newsletter.
 -   More information in the footer including emergency numbers.
 -   Fix when navigation bar covers headings when links are clicked.
+-   Line up buttons on external links.
