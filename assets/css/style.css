@@ -30,7 +30,11 @@ h6 {
 }
 
 #tips h1,
-#tips h2 {
+#tips h2,
+#quote-section h1,
+#quote-section h2,
+#link-section h1,
+#link-section h2 {
     text-transform: uppercase;
 }
 
